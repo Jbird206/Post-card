@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+    <center>  <h1>Virtual Postcard</h1>
+      <p>Fill in the blanks to create a custom postcard using this template.</p></center>
+    </div>
+  </div>
+  <br>
+  <div class="container2">
+<div id="blanks">
+<form>
+  <div class="form-group">
+    <label form="destination">Your destination</label>
+    <input id="destination" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label form="weather">what's the weather like in one word?</label>
+    <input id="weather" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label form="emotion">A relevant emotion</label>
+    <input id="emotion" class="form-control" type"text">
+</div>
+<div class="form-group">
+  <label form="drinks">name 1 drink or cocktail you had</label>
+  <input id="drinks" class="form-control" type"text">
+</div>
+  <button type="submit" class="btn">Get me the postcard!</button>
+  </form>
+</div>
+</div>
+
+<div id="story">
+  <h1>Postcard Generator</h1>
+  <img src="https://ei.marketwatch.com/Multimedia/2019/07/18/Photos/ZH/MW-HN697_liv_fl_20190718153147_ZH.jpg?uuid=aef7e42a-a992-11e9-b387-9c8e992d421e" height="100" width="100">
+  <p>Greetings from, <span class="destination"></span>! The flight was horrible and there was a delay but no worries, everything is fine now and the hotel is fantastic. The weather here is <span class="weather"></span>. Can't tell you enough how <span class="emotion"></span> I am to be here. Haven't had a proper holiday in forever! Been sitting by the pool and having a <span class="drinks"></span>. Anyway, wanted to drop you a postcard and say hi! Take care.</p>
+  </div>
+</div>
+
+</body>
+</html>
